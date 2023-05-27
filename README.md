@@ -47,5 +47,3 @@ If you need to modify the data type mapping between SQLite and PostgreSQL, you c
 - This code is provided as an example and may require modifications to fit your specific use case. Use it at your own risk.
 - Always backup your databases before performing any data migration or manipulation operations.
 - Verify the migrated data in the PostgreSQL database to ensure the integrity and accuracy of the migration.
-
-Please feel free to update this README file with any additional information or instructions specific to your project or requirements.
