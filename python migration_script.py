@@ -4,21 +4,12 @@ import psycopg2
 sqlite_conn = sqlite3.connect("data.db")
 sqlite_cur = sqlite_conn.cursor()
 
-# AWS DB DETAILS
-# pg_conn = psycopg2.connect(
-#     host="database-1.cp3fcmka81um.us-east-1.rds.amazonaws.com",
-#     database="strapi-data-migrate",
-#     user="postgres",
-#     password="RockStar",
-#     port="5432"
-# )
-
 # Local Database details
 pg_conn = psycopg2.connect(
     host="localhost",
-    database="strapi-data-migrate-2",
+    database="database-name",
     user="postgres",
-    password="RockStar",
+    password="####",
     port="5432"
 )
 pg_cur = pg_conn.cursor()
